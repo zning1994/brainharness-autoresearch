@@ -1,4 +1,5 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "brainharness-autoresearch",
   "version": "0.3.1",
   "description": "Autonomous prompt optimization for AI agent skills. Runs controlled experiments to find better prompt variants using the Karpathy autoresearch pattern.",
@@ -15,5 +16,18 @@
     "skill-evaluation",
     "autoresearch",
     "llm-eval"
-  ]
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "BrainHarness Autoresearch",
+        "shortDescription": "Autonomous prompt optimization for AI agent skills. Runs controlled experiments to find better prompt variants using the Karpathy autoresearch pattern.",
+        "developerName": "zning1994",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Use brainharness-autoresearch to help with my task."
+        ]
+      }
+    }
+  }
 }

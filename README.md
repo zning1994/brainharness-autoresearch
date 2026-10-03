@@ -137,3 +137,11 @@ Custom endpoint support via `OPENAI_BASE_URL` (works with any OpenAI-compatible 
 ## License
 
 [MIT](LICENSE)
+
+## Codex and OpenAI plugins
+
+The root `plugin.json` provides a portable package using the same skill source as Claude. Once the repository marketplace is available, install with `codex plugin add brainharness-autoresearch@brainharness`. This plugin is not yet listed in the public ChatGPT plugin directory.
+
+When creating an upload archive, materialize symlinks inside `skills/brainharness-autoresearch/` and include all referenced files.
+
+Autoresearch requires a local Python environment and your model API credentials. Installing the plugin does not provision either, and model calls can incur charges. Ordinary ChatGPT execution is not verified.
