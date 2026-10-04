@@ -4,6 +4,8 @@
 
 Autonomous skill prompt optimizer based on Karpathy's autoresearch methodology.
 
+Official website: [brainharness.si](https://brainharness.si/).
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![ClawHub](https://img.shields.io/badge/ClawHub-brainharness--autoresearch-blue)](https://clawhub.ai/zning1994/brainharness-autoresearch)
 [![brainharness](https://img.shields.io/badge/brainharness-marketplace-purple)](https://github.com/zning1994/brainharness)
